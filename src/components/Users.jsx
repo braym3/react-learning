@@ -4,7 +4,7 @@ const Users = () => {
     const { id } = useParams();
 
     return( 
-        <>
+        <div className='content'>
             <h1> Users page. </h1>
             <p>Select a user:</p>
 
@@ -20,7 +20,7 @@ const Users = () => {
                  </li>
              </ul>
              <p>Hello user {id}</p>
-        </>
+        </div>
     );
 };
 

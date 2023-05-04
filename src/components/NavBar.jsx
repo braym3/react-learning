@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-const Nav = () => {
+const NavBar = () => {
     return(
         <div>
             <nav>
@@ -15,17 +15,14 @@ const Nav = () => {
                         <Link to="/shop">Shop Now</Link> 
                     </li>
                     <li>
-                        <Link to={`/users`}>Users</Link>
+                        <Link to="/users">Users</Link>
                     </li>
                     <li>
                         <Link to="/contact">Contact Us</Link>
-                    </li>
-                    <li>
-                        <Link to="/404">Not Found</Link>
                     </li>
                 </ul>
             </nav>
         </div>
     );
 };
-export default Nav;
+export default NavBar;
